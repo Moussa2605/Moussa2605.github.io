@@ -1,0 +1,164 @@
+header{
+  margin: 0px;
+  padding: 270px;
+  font-family: Avenir, sans-serif;
+  background-image: url(outlook-3659088.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 36vh;
+  width: 1360px;
+  position: relative;
+  right: 100px;
+  
+  
+  
+}
+
+nav{
+  width: 100%;
+  margin: 0 auto;
+  background-color:rgba(85, 111, 160, 0.281);
+  position: relative;
+  bottom: 200px;
+  
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+nav ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+nav a:hover{
+  color:blue;
+  border-bottom: 2px solid powderblue;
+}
+
+.sous{
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+nav > ul li:hover .sous{
+  display: block;
+}
+.sous li{
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+.sous a{
+  padding: 10px;
+  border-bottom: none;
+}
+.sous a:hover{
+  border-bottom: none;
+  background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+  content:" ▼";
+  font-size: 12px;
+}
+
+
+
+
+h1{
+  font-size: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  font-weight: bold;
+  color: midnightblue;
+  position: relative;
+  bottom: 200px;
+}
+h2{
+ 
+
+  font-style: italic;
+  font-size: 100px;
+  
+  font-family: fantasy;
+  padding: 0px;
+  font-family: cursive;
+  
+  position: relative ;
+  bottom: 100px;
+  text-align: center;
+  
+  --couleur:0, 0, 0;
+margin: 2rem auto;
+display: flex;
+justify-content: center;
+color: white;
+text-shadow: 
+0 1px 0 #ccc, 
+0 2px 0 #acacac,
+0 3px 0 #a0a0a0,
+0 4px 0 #9b9a9a,
+0 5px 0 #888787,
+0 6px 1px rgba(var(--couleur),.1),
+0 0 5px rgba(var(--couleur),.1),
+0 1px 3px rgba(var(--couleur),.3),
+0 3px 5px rgba(var(--couleur),.3),
+0 5px 10px rgba(var(--couleur),.25),
+0 10px 10px rgba(var(--couleur),.2),
+0 20px 20px rgba(var(--couleur),.15);
+}
+	
+
+
+ 
+  
+ 
+  
+  
+
+p{
+  color: black;
+  font-size: 30px;
+}
+body {
+  width: 90%;
+  
+  margin: 0 auto;
+  font: .9em/1.2 Arial, Helvetica, sans-serif
+}
+
+
+h3{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color:gainsboro;
+  color: blue;
+  position: relative;
+  bottom: 25px;
+}
